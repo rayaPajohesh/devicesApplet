@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="appletDevices.jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/appletDevices</output-path>
+    <root id="archive" name="devicesApplet.jar">
+      <element id="module-output" name="devicesApplet" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/MCASmart.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/JavaSource/lib/rxtx-2.1.7.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/JavaSource/lib/serialPort-941.0.0.2.jar" path-in-jar="/" />
+      <element id="library" level="module" name="MCASmart.jar" module-name="devicesApplet" />
+      <element id="library" level="module" name="rxtx-2.1.7.jar" module-name="devicesApplet" />
+      <element id="library" level="module" name="serialPort-941.0.0.2.jar" module-name="devicesApplet" />
+    </root>
+  </artifact>
+</component>

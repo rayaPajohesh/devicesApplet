@@ -1,0 +1,38 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+</head>
+
+<body>
+               
+           <applet  id="devicesApplet"
+			        code = "com.iac.applet.AppletDevices.class"
+			        archive="appletDevices.jar,MCASmart.jar,rxtx-2.1.7.jar,serialPort-941.0.0.2.jar"
+                    codebase="file://D:/Source/devicesApplet/JavaSource/lib/">
+                `   width="100"
+			        height="100"
+	        </applet>
+	        
+<script>
+	alert(devicesApplet.commandPOS('74126a10a106910101920101a106910102920140'));
+var header ="4578" + "," + "1" + "," +
+                 "Evolis Pebble" + "," +
+                 "1234abcd" + "," +
+                 "%B6395991105024707^RAAD BITA^9707501000000000000000000000?" + "," + 
+                 ";6395991105024707=97075010000075010?" + "," + 
+                 "" + "," +
+                 "6395991105024707";
+       var detail = "Customer_Full_Name" + "," +"„Õ”‰ Œ«ﬂ”«—" + "," + "B Nazanin" + "," + "140" + "," + "Bold" + "," + "19" + "," + "20" +  "," +"#" +
+           "CVV2" + "," +"cvv2:3589" + "," + "OCR A Extended" + "," + "100" + "," + "Bold" + "," + "7" + "," + "30" +  "," +"#" +
+           "ExpiryDate" + "," +"94/07" + "," + "OCR A Extended" + "," + "100" + "," + "Bold" + "," + "40" + "," + "30" +  "," +"#" +
+           "Pan1" + "," + "4707" + "," + "Cambria" + "," + "130" + "," + "Bold" + "," + "28" + "," + "16" +  "," +"#" + 
+           "Pan2" + "," + "0502" + "," + "Cambria" + "," + "130" + "," + "Bold" + "," + "21" + "," + "16" +  "," +"#" +
+           "Pan3" + "," + "9911" + "," + "Cambria" + "," + "130" + "," + "Bold" + "," + "14" + "," + "16" +  "," +"#" +
+           "Pan4" + "," + "6395" + "," + "Cambria" + "," + "130" + "," + "Bold" + "," + "7" + "," + "16";
+      
+alert(devicesApplet.issueCard(header, detail));
+</script>	               
+
+</body>
+</html>

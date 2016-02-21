@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry path="JavaSource" kind="src"/>
+	<classpathentry path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jdk1.6.0" kind="con"/>
+	<classpathentry path="MCASmart.jar" kind="lib"/>
+	<classpathentry path="JavaSource/lib/rxtx-2.1.7.jar" kind="lib"/>
+	<classpathentry path="JavaSource/lib/serialPort-941.0.0.2.jar" kind="lib"/>
+	<classpathentry path="bin" kind="output"/>
+</classpath>
